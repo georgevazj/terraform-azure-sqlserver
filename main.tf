@@ -41,6 +41,6 @@ resource "azurerm_sql_database" "sql_database" {
     edition = var.sql_database_edition
 
     tags = {
-        project = var.project
+        project = var.project_tag
     }
 }
