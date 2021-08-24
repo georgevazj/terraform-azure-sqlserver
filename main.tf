@@ -28,7 +28,7 @@ resource "azurerm_sql_server" "sql_server" {
     administrator_login_password = var.administrator_login_password
 
     tags = {
-        project = var.project
+        project = var.project_tag
     }
 }
 
